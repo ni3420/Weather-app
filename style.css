@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #222;
+}
+.box{
+    width: 90%;
+    max-width: 480px;
+    background:linear-gradient(aqua,blue,green);
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    height: 60px;
+    margin-right:16px ;
+    font-size: 17px;
+    border-radius: 30px;
+    flex: 1;
+
+}
+.search button{
+    border: none;
+    outline: none;
+    background: white;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.search button img{
+    width: 16px;
+}
+.clear{
+    width: 180px;
+    margin-top: 30px;
+}
+.weat h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.weat h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.call{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.call img{
+    width: 40px;
+    margin-right: 10px;
+}
+.human,.wind{
+    font-size: 28px;
+    margin-top: -5px;
+}
